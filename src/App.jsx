@@ -1,10 +1,13 @@
-const app = ({name, surname}) => {
+import Header from "./components/Header/Header";
+import Form from "./components/Form/Form";
+
+const app = () => {
   return (
       <>
-          <h1>Hello World</h1>
-          <p>Hola {name} {surname}</p>
+        <Header></Header>
+        <Form></Form>
       </>
   )
 }
 
-export default app
+export default app;
